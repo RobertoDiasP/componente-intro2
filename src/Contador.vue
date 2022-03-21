@@ -1,7 +1,7 @@
 <template>
   <div class="contador">
     <span>{{ contador }}</span>
-    <button @click="adicionar">-</button>
+    <button @click="adicionar">+</button>
     <button @click="subitrair">-</button>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
     },
 
     subitrair() {
-      this.contado--;
+      this.contador--;
     },
   },
 };
