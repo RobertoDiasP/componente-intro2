@@ -3,12 +3,12 @@
     <h1>Medidor</h1>
     <app-contador />
     <app-contador />
-    <app-contador />
   </div>
 </template>
 
 <script>
-export default {};
+//import Contador from "./Contador.vue";
+export default {}; //{ components: { Contador } }//;
 </script>
 
 <style>
